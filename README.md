@@ -1,4 +1,6 @@
 # hdp-sandbox-elasticsearch-flume
+Avalon Consulting, LLC - http://www.avalonconsult.com/
+
 Hortonworks Blog Post - http://hortonworks.com/blog/configure-elastic-search-hadoop-hdp-2-0/
 
 ##Getting Started
