@@ -49,4 +49,8 @@ service flume-agent start
 
 # Setup Kibana Web Server
 echo "Alias /kibana /opt/kibana" > /etc/httpd/conf.d/kibana.conf
+
+# Fix for Hue Proxy on Sandbox
+echo 'ProxyPass /kibana !' | cat - /etc/httpd/conf.d/hue.conf > /tmp/tempHueConf && mv -f /tmp/tempHueConf /etc/httpd/conf.d/hue.conf
+
 service httpd restart
