@@ -5,7 +5,7 @@ set -o pipefail
 # Install Elasticsearch
 ES_VER="1.0.1"
 wget https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-${ES_VER}.noarch.rpm
-rpm -ivh elasticsearch-${ES_VER}.noarch.rpm
+yum install -y elasticsearch-${ES_VER}.noarch.rpm
 
 # Configure Elasticsearch
 cp elasticsearch.yml /etc/elasticsearch/
