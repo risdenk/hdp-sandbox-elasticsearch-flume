@@ -1,0 +1,8 @@
+website:weblog:login_page weblog data1
+website:weblog:profile_page weblog data2
+website:weblog:transaction_page weblog data3
+website:weblog:docs_page weblog data4
+syslog:syslog:sysloggroup syslog data1
+syslog:syslog:sysloggroup syslog data2
+syslog:syslog:sysloggroup syslog data3
+syslog:syslog:sysloggroup syslog data4
