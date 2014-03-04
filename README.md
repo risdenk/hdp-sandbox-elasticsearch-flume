@@ -16,4 +16,5 @@ Elasticsearch requires port 9200 to be forwarded to use the http interface for K
 
 ### View the Result
 1. Open [http://localhost:42080/kibana/#/dashboard/file/flume.json](http://localhost:42080/kibana#/dashboard/file/flume.json)
-*** By default port 80 is forwarded to 42080 on the HDP 2.0 Sandbox
+
+*** By default port 42080 is forwarded to Apache Web Server Port 80 on the HDP 2.0 Sandbox
